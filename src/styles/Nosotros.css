@@ -1,0 +1,39 @@
+.nosotros p {
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+h2 {
+
+    margin-left: 20px;
+}
+.cardstaff {
+
+    margin-right: 30px;
+}
+
+.title {
+
+    color: orange;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+/*Inicio Nosotros @media*/
+
+@media screen and (min-width: 50px) and (max-width: 800px) {
+
+    .nosotros p {
+        padding: 8px;
+    }
+
+    .CardGroup {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+}
+
+/*Fin Nosotros @media*/

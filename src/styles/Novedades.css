@@ -1,0 +1,15 @@
+/* font-family: 'Racing Sans One', cursive; */
+
+.titulo {
+    margin-bottom: 10px;
+    color: rgb(61, 40, 1);
+    font-family: 'Racing Sans One', cursive;
+}
+
+.boximg {
+
+width: 500px;
+height: auto;
+margin-bottom: 20px;
+
+}

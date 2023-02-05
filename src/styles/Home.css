@@ -1,0 +1,38 @@
+.bienvenido {
+    width: 75%;
+    padding-right: 10px;
+    padding-left: 8px;
+    box-sizing: border-box;
+}
+
+.bienvenido p {
+    font-size: 20px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.xdestacado {
+    color: orange;
+    font-weight: bold;
+}
+
+/* inicio Home media*/
+
+@media screen and (min-width: 50px) and (max-width: 800px) {
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bienvenido {
+        padding-left: 8px;
+        box-sizing: border-box;
+    }
+}
+
+/* Fin Home media*/
