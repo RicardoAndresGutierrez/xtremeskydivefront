@@ -7,7 +7,7 @@ const HomePage = (props) => {
     return (
         <main className="holder">
             <div className="bienvenido">
-                <p>Bienvenidos a la pagina mas <span className="xdestacado">X</span>treme del mundo del paracaidismo!</p>
+                <p>Bienvenidos a la pagina más <span className="xdestacado">X</span>treme del mundo del paracaidismo!</p>
             </div>
             <div className="carrusel">
                 <Carousel fade variant="dark">
@@ -31,9 +31,8 @@ const HomePage = (props) => {
             <div className="contenedor">
 
                 <div className="home">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci culpa, rem dolorem veniam qui
-                        dignissimos consectetur eveniet autem, recusandae odit doloremque optio, officiis deleniti
-                        reprehenderit doloribus enim. Molestias, explicabo? Natus!</p>
+                    <p>¿Cómo describir el paracaidismo?</p>
+                    <p>El paracaidismo es una técnica de salto desde un avión, globo aerostático, helicóptero o plataforma fija, en el cual se salta o se deja caer desde una gran altura con un artefacto fabricado en tela llamado paracaídas.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim repellat illum rerum libero, ipsa
                         accusamus quam, architecto incidunt ipsam dignissimos dolores laboriosam ut accusantium totam harum
                         obcaecati cupiditate, nesciunt aut?</p>

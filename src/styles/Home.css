@@ -6,20 +6,18 @@
 }
 
 .xdestacado {
-    font-size: 25px;
+    font-size: 30px;
     color: orange;
     font-weight: bold;
     font-family: 'Kaushan Script', cursive;
 }
 
 .home {
-    
-    padding-right: 10px;
-    padding-left: 8px;
-    box-sizing: border-box;
+
     font-size: 20px;
     text-align: center;
-
+    margin: 40px;
+    font-family: 'Playfair Display';
 }
 
 .contenedor {
