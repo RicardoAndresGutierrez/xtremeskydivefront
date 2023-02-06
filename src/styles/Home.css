@@ -1,12 +1,25 @@
 .bienvenido {
-    width: 75%;
+    text-align: center;
+    margin: 40px;
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+}
+
+.xdestacado {
+    font-size: 25px;
+    color: orange;
+    font-weight: bold;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.home {
+    
     padding-right: 10px;
     padding-left: 8px;
     box-sizing: border-box;
-}
-
-.bienvenido p {
     font-size: 20px;
+    text-align: center;
+
 }
 
 .contenedor {
@@ -15,10 +28,7 @@
     margin-top: 20px;
 }
 
-.xdestacado {
-    color: orange;
-    font-weight: bold;
-}
+
 
 /* inicio Home media*/
 

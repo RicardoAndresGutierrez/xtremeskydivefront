@@ -6,6 +6,9 @@ import '../styles/Home.css'
 const HomePage = (props) => {
     return (
         <main className="holder">
+            <div className="bienvenido">
+                <p>Bienvenidos a la pagina mas <span className="xdestacado">X</span>treme del mundo del paracaidismo!</p>
+            </div>
             <div className="carrusel">
                 <Carousel fade variant="dark">
                     <Carousel.Item>
@@ -26,10 +29,8 @@ const HomePage = (props) => {
                 </Carousel>
             </div>
             <div className="contenedor">
-                <div className="bienvenido">
-                    <h2>Bienvenidos</h2>
-                    <hr />
-                    <p>Bienvenidos a la pagina mas <span className="xdestacado">X</span>treme del mundo del paracaidismo!</p>
+
+                <div className="home">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci culpa, rem dolorem veniam qui
                         dignissimos consectetur eveniet autem, recusandae odit doloremque optio, officiis deleniti
                         reprehenderit doloribus enim. Molestias, explicabo? Natus!</p>
