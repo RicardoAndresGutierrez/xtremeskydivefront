@@ -38,6 +38,21 @@ const HomePage = (props) => {
                         obcaecati cupiditate, nesciunt aut?</p>
                 </div>
             </div>
+            <div className="videos">
+                <div className="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/GAB89kDzCNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div>
+                    <div className="video2">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/28VKpQtzaPQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div>
+                    <div className="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pOe0b4twWkI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
         </main>
     )
 }
