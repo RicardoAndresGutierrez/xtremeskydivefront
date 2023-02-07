@@ -3,6 +3,7 @@
     margin: 40px;
     font-size: 32px;
     font-family: 'Playfair Display', serif;
+    text-shadow: -4px 4px 3px rgba(0,0,0,0.35);
 }
 
 .xdestacado {
@@ -10,6 +11,7 @@
     color: orange;
     font-weight: bold;
     font-family: 'Kaushan Script', cursive;
+    text-shadow: -4px 4px 3px rgba(0,0,0,0.35);
 }
 
 .home {
@@ -24,6 +26,12 @@
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+}
+
+.videos {
+    background-image: radial-gradient(circle, rgba(63,94,251,0) 0%, rgba(255,255,255,1) 100%), url(/public/imagenes/galeria/galeria4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .video {

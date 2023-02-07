@@ -13,6 +13,8 @@ const HomeServicios = (props) => {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam sapiente quaerat numquam ea. Quasi
                             veritatis cum enim, dolores vitae asperiores consequuntur earum ex, libero odio unde reiciendis
                             deleniti! Reiciendis, ratione.</p>
+                            <p><a href="/contacto"
+             rel="noopener noreferrer">MÁS INFO!</a></p>
                     </div>
                 </div>
                 <div className="servicio">
@@ -22,6 +24,8 @@ const HomeServicios = (props) => {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam sapiente quaerat numquam ea. Quasi
                             veritatis cum enim, dolores vitae asperiores consequuntur earum ex, libero odio unde reiciendis
                             deleniti! Reiciendis, ratione.</p>
+                            <p><a href="/contacto"
+             rel="noopener noreferrer">MÁS INFO!</a></p>
                     </div>
                 </div>
                 <div className="servicio">
@@ -31,6 +35,8 @@ const HomeServicios = (props) => {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam sapiente quaerat numquam ea. Quasi
                             veritatis cum enim, dolores vitae asperiores consequuntur earum ex, libero odio unde reiciendis
                             deleniti! Reiciendis, ratione.</p>
+                            <p><a href="/contacto"
+             rel="noopener noreferrer">MÁS INFO!</a></p>
                     </div>
                 </div>
             </div>

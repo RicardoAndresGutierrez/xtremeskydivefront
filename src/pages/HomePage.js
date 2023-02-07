@@ -7,7 +7,7 @@ const HomePage = (props) => {
     return (
         <main className="holder">
             <div className="bienvenido">
-                <p>Bienvenidos a la pagina más <span className="xdestacado">X</span>treme del mundo del paracaidismo!</p>
+                <p>Bienvenidos a la página más <span className="xdestacado">X</span>treme del mundo del paracaidismo!</p>
             </div>
             <div className="carrusel">
                 <Carousel fade variant="dark">
