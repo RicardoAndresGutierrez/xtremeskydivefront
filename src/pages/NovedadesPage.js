@@ -20,13 +20,13 @@ const Novedades = (props) => {
 
     return (
         <section className="holder">
-            <h2>NOTICIAS</h2>
-        <hr/>
+            <h2>NOVEDADES</h2>
+            <hr />
             {loading ? (
                 <p>Cargando...</p>
             ) : (
                 novedades.map(item => <NovedadItem key={item.id}
-                    title={item.titulo} 
+                    title={item.titulo}
                     imagen={item.imagen} body={item.cuerpo} />)
             )}
         </section>

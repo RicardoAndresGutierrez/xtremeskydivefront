@@ -54,3 +54,14 @@
 }
 
 /*Fin Servicios @media*/
+
+
+.servicio {
+
+    transition: all 0.3s ease;
+}
+
+.servicio:hover {
+    background: #f3ddbc;
+    border-radius: 10px;
+}

@@ -44,7 +44,7 @@ const ContactoPage = (props) => {
 
             <div>
                 <h2>Contacto Rápido</h2>
-                <hr/>
+                <hr />
                 <form action="/contacto" method="post" onSubmit={handleSubmit} className="formulario">
                     <p><label for="nombre">Nombre</label>
                         <input type="text" name="nombre" value={formData.nombre} onChange={handleChange} />
@@ -69,14 +69,13 @@ const ContactoPage = (props) => {
 
             <div className="datos">
                 <h2>Otras vias de comunicación</h2>
-                <hr/>
+                <hr />
                 <p>También puede contactarse con nosotros usando los siguientes metodos</p>
                 <ul>
                     <li>Teléfono: 456789123</li>
                     <li>Email: xtremeskydivear@gmail.com</li>
                     <li>Facebook</li>
                     <li>Instragram: @xtremeskydive</li>
-                    <li>Telegram:</li>
                 </ul>
 
             </div>

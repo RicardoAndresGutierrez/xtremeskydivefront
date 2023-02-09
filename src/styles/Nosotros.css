@@ -12,13 +12,9 @@ h2 {
 
 .cardstaff {
 
-    margin: 60px;
+    margin: 30px;
     width: 300px;
     height: 450px;
-    /* justify-content: space-between;
-    box-shadow: 10px 11px 13px -8px rgba(255, 120, 0, 0.29);
-    -webkit-box-shadow: 10px 11px 13px -8px rgba(255, 120, 0, 0.29);
-    -moz-box-shadow: 10px 11px 13px -8px rgba(255, 120, 0, 0.29); */
 }
 
 .title {
@@ -34,6 +30,14 @@ h2 {
     height: 600px;
     text-align: center;
     justify-content: center;
+}
+
+.cardstaff {
+    transition: all 0.3s ease;
+}
+
+.cardstaff:hover {
+    transform: scale(1.1);
 }
 
 /*Inicio Nosotros @media*/

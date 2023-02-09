@@ -1,15 +1,38 @@
 /* font-family: 'Racing Sans One', cursive; */
 
-.titulo {
-    margin-bottom: 10px;
-    color: rgb(61, 40, 1);
-    font-family: 'Racing Sans One', cursive;
+
+.novedades {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .boximg {
+    display: flex;
+    justify-content: center;
 
-width: 500px;
-height: auto;
-margin-bottom: 20px;
+}
 
+.titulo {
+    margin-bottom: 10px;
+    color: rgb(89, 58, 2);
+    font-family: 'Racing Sans One', cursive;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.imagenNovedad {
+
+    width: 700px;
+    height: 100%;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.body {
+    font-size: 19px;
+    font-family: 'Playfair Display';
 }

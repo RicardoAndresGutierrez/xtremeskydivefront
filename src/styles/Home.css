@@ -1,9 +1,9 @@
 .bienvenido {
     text-align: center;
-    margin: 40px;
+    margin: 50px;
     font-size: 32px;
     font-family: 'Playfair Display', serif;
-    text-shadow: -4px 4px 3px rgba(0,0,0,0.35);
+    text-shadow: -4px 4px 3px rgba(0, 0, 0, 0.35);
 }
 
 .xdestacado {
@@ -11,7 +11,7 @@
     color: orange;
     font-weight: bold;
     font-family: 'Kaushan Script', cursive;
-    text-shadow: -4px 4px 3px rgba(0,0,0,0.35);
+    text-shadow: -4px 4px 3px rgba(0, 0, 0, 0.35);
 }
 
 .home {
@@ -29,7 +29,7 @@
 }
 
 .videos {
-    background-image: radial-gradient(circle, rgba(63,94,251,0) 0%, rgba(255,255,255,1) 100%), url(/public/imagenes/galeria/galeria4.jpg);
+    background-image: radial-gradient(circle, rgba(63, 94, 251, 0) 0%, rgba(255, 255, 255, 1) 100%), url(/public/imagenes/cielohome.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -49,6 +49,13 @@ iframe {
     -webkit-box-shadow: 4px 18px 20px -2px rgba(0, 0, 0, 0.55);
     -moz-box-shadow: 4px 18px 20px -2px rgba(0, 0, 0, 0.55);
 }
+
+h3 {
+    text-decoration: underline;
+    color: rgb(56, 3, 3);
+    margin: 30px;
+}
+
 
 /* inicio Home media*/
 

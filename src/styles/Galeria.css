@@ -1,7 +1,12 @@
+.h2 {
+    font-family: 'Playfair Display', serif;
+}
+
 .galeria {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    margin-bottom: 120px;
 }
 
 .galeria img {
@@ -14,14 +19,14 @@
     cursor: pointer;
 }
 
-.agrandar {
+.imagen {
     margin: 30px 30px;
     background: #676470;
-    transition: all 0.5s ease;
+    transition: all 1.2s ease;
+
 }
 
-.agrandar:hover {
+.imagen:hover {
     transform: scale(3.0);
-    /* position: center; */
-     
+
 }

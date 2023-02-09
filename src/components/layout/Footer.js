@@ -14,7 +14,7 @@ const Footer = (props) => {
                     <div className="tooltip">Instagram</div>
                     <span><i className="fab fa-instagram"><FontAwesomeIcon icon={faInstagram} /></i></span>
                 </a>
-                <a href="https://www.youtube.com/" target="_blank" className="icon youtube" rel="noreferrer">
+                <a href="https://www.youtube.com/@TEEMsky" target="_blank" className="icon youtube" rel="noreferrer">
                     <div className="tooltip">Youtube</div>
                     <span><i className="fab fa-youtube"><FontAwesomeIcon icon={faYoutube} /></i></span>
                 </a>
